@@ -1,0 +1,28 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+	//strcat() having problem of buffer overflow..
+    int i,j=0;
+    char a[20],b[10];
+//    printf("Enter the string 1:");
+//    gets(a);
+//    printf("Enter the string 2:");
+//    gets(b);
+//    i=strlen(a);
+//    while(b[j]='\0')
+//    {
+//        a[i+1]=b[j];
+//        i++;
+//        j++;
+//    }
+//    a[i]='\0';
+//    puts(a);
+	printf("enter the string:");
+	gets(a);
+	i=strlen(a);
+	printf("%s",&a[2]);
+	getch();
+}
+
+//i want output of this only(l) el.
