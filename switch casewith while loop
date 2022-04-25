@@ -1,0 +1,35 @@
+#include < stdio.h >  
+  
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */  
+  
+int main(int argc, char * argv[]) {  
+    char chc, ok;  
+    ok = 'n';  
+    while (ok == 'n') {  
+        puts("Menu");  
+        puts("1. Create a directory");  
+        puts("2. Delete a Directory");  
+        puts("3. Show a Directory");  
+        puts("4. Exit");  
+        puts("");  
+        switch (chc) {  
+            case '1':  
+                puts("Choice is 1");  
+                break;  
+            case '2':  
+                puts("Choice is 2");  
+                break;  
+            case '3':  
+                puts("Choice is 3");  
+                break;  
+            case '4':  
+                puts("Choice is 4");  
+                break;  
+            default:  
+                puts("Invalid Choice");  
+                ok = 'n';  
+                return 0;  
+                getch();  
+        }  
+    }  
+}  
